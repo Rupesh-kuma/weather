@@ -1,0 +1,55 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.bg_today{
+    background-color: #ffebd7;
+    color: #000000;
+    border-radius: 20px;
+    text-align: center;
+}
+.bg_today:hover{
+    background:linear-gradient(to bottom right, #dbc4a4, #fc965b);
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.information{
+    color:rgb(54, 53, 53);
+    text-shadow: 1px 2px 3px white;
+    background:linear-gradient(to bottom right, #ffebcf, #f8c3a5);
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.todayweather_icon{
+    width: 200px;
+    box-shadow: 2px 1px 4px black;
+    display: block;
+    margin: auto auto;
+}
+.today_weather{
+    margin: 30px 0;
+    border-radius: 46px;
+    background:linear-gradient(to bottom right, #dbc4a4, #fc965b);
+}
+.table>:not(caption)>*>* {
+    text-align: center;
+    color: #ffffff;
+    background-color: #fc9;
+    border-bottom-width: var(--bs-border-width);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state,var(--bs-table-bg-type,var(--bs-table-accent-bg)));
+}
+.bg_infos{
+    background-color:#fff1e3 ;
+    border-radius: 20px;
+}
+.forecast_width{
+    width: 58px;
+}
+.clickItem_icon{
+    width: 100px;
+    box-shadow: 2px 1px 4px black;
+    display: block;
+    margin: auto auto;
+}
+.tables{
+    overflow-x: auto;
+}
